@@ -5,6 +5,7 @@ print((89*'=')+'\n')
 distance = float(input('Please enter the distance to be covered in km: '))
 
 print('\n'+'Calculating freight cost... Please wait.')
+
 if distance > 10.0:
     print('\n'+'Sorry, we do not deliver to distances over 10 km.')
 elif distance > 5.0:
